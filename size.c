@@ -7,8 +7,8 @@ V 1.0 2016.
 #include <stdio.h>
 
 int main(void)  {
-	printf(" 	 	 자료형 : 크기(바이트)\n");
-	printf("   	   char : %d %d\n", sizeof(char), sizeof(unsigned char));
+	printf("     자료형 : 크기(바이트)\n");
+	printf("       char : %d %d\n", sizeof(char), sizeof(unsigned char));
 	printf("      short : %d %d\n", sizeof(short), sizeof(unsigned char));
 	printf("        int : %d %d\n", sizeof(int), sizeof(200));
 	printf("       long : %d %d\n", sizeof(long), sizeof(300L));
